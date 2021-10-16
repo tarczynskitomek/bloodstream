@@ -1,0 +1,15 @@
+public-transport-api:
+  api-key: ${API_KEY}
+  resource-id: f2e5503e927d-4ad3-9500-4ab9e55deb59
+  connection:
+    url: https://api.um.warszawa.pl/api/action/busestrams_get
+    request-timeout-millis: 1000
+    connecction-timeout-millis: 50
+spring:
+  data:
+    mongodb:
+      password: ${DB_PASS}
+      username: ${DB_USER}
+      database: bloodstream
+  profiles:
+    active: local

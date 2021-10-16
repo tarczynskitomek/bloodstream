@@ -1,0 +1,5 @@
+public-transport-api:
+  api-key: fake_key
+  resource-id: fake_id
+  connection:
+    url: http://localhost:8000/vehicles
